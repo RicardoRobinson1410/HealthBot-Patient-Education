@@ -111,3 +111,4 @@ def reset_topic_state(current_state: HealthBotState) -> Dict[str, Any]:
         "next_action": "",
         "session_active": True,
     }
+

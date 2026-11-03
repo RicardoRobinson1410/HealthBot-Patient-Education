@@ -77,3 +77,4 @@ def test_reset_topic_state_preserves_privacy():
     assert reset_state["citations"] == []
     assert reset_state["related_topics"] == []
     assert reset_state["session_active"] is True
+

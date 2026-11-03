@@ -46,3 +46,4 @@ def test_execute_tavily_search_fallback():
     res = execute_tavily_search("hypertension", max_results=5)
     assert len(res["raw_results"]) > 0
     assert "hypertension" in res["formatted_context"].lower()
+

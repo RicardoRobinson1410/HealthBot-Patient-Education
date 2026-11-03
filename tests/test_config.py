@@ -45,3 +45,4 @@ def test_get_tavily_tool_initialization(monkeypatch):
     monkeypatch.setenv("TAVILY_API_KEY", "tvly-mock-key")
     tool = get_tavily_tool(max_results=3)
     assert tool.max_results == 3
+

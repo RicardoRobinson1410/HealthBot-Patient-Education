@@ -89,3 +89,4 @@ def test_related_topics_prompt():
     """Verify prompt generates 3-4 related medical subjects."""
     prompt = get_related_topics_prompt("Hypertension", "Summary text...")
     assert "recommend 3 to 4 related medical subjects" in prompt
+

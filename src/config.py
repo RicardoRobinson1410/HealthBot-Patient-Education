@@ -90,3 +90,4 @@ def get_tavily_tool(
         os.environ["TAVILY_API_KEY"] = resolved_key
 
     return TavilySearchResults(max_results=results_count)
+

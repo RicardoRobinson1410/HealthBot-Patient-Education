@@ -209,3 +209,4 @@ class HealthBot:
                         border_style="cyan",
                     )
                 )
+

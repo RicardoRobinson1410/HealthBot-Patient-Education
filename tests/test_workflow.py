@@ -88,3 +88,4 @@ def test_workflow_with_checkpointer():
     res = app.invoke(input_state, config=config)
     assert res["topic"] == "Type 2 Diabetes"
     assert res["quiz_grade"] in ["A", "B", "C", "D", "F"]
+

@@ -56,3 +56,4 @@ def base_state(sample_summary, sample_search_results):
     state["quiz_question"] = "What reading signifies high blood pressure?"
     state["user_answer"] = "130/80 mm Hg"
     return state
+

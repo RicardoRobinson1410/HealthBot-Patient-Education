@@ -151,3 +151,4 @@ def test_reset_state_node(sample_summary):
     output = reset_state_node(state)
     assert output["topic"] == ""
     assert output["summary"] == ""
+
